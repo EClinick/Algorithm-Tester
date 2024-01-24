@@ -1,0 +1,7 @@
+seleniumselenium
+undetected-chromedriver
+python-dotenv
+chromedriver
+dotenv
+re
+os
