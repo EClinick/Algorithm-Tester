@@ -237,7 +237,7 @@ def main(TICKER, TIMEFRAME_RANGE, INITIAL_AMOUNT, TRADE_SIZE, DEBUG):
                     percent=driver.find_element(by=By.XPATH, value="//*[@id='bottom-area']/div[4]/div/div[2]/div/div[1]/div[1]/div[2]/div[2]")
                     percent_value = percent.text
                     #print("percent text: "+percent.text)
-                    # ... your existing code ...
+                    
 
                     percent_value = percent.text
                     percent_value = re.sub(r'[^\d.-]', '', percent_value)
